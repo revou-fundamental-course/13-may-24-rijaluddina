@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(216, 216, 216);
+    transition: background-color 0.5s ease, color 0.5s ease;
+    font-family: 'poppins', sans-serif;
+}
+
+body.dark {
+    background-color: rgb(17, 17, 17);
+    color: rgb(245, 245, 245);
+}
+
+.container {
+    width: 350px;
+    height: 400px;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.555);
+    font-family: 'poppins', sans-serif;
+    padding: 20px;
+}
+
+.button-container {
+    display: flex;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+}
+
+h2:hover {
+    border-bottom: 1px solid #1e1e1e;
+}
+
+.button {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 12px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    width: 30%;
+}
+
+.button:hover {
+    color: white;
+    background-color: rgb(32, 32, 32);
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: none;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    top: 20%;
+    text-align: center;
+}
+
+.clearAll {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    padding: 5px 22px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    justify-content: center;
+    border-radius: 5px;
+    border: none;
+    bottom: 3%;
+    width: 50%;
+}
+
+.clearAll:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(32, 32, 32);
+}
+
+.Mode {
+    cursor: pointer;
+    position: absolute;
+    bottom: 2%;
+    right: 5%;
+}
+
+.material-symbols-outlined {
+    transition: opacity 0.5s ease;
+}
